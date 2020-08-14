@@ -23,7 +23,6 @@ public class ArrayControllerTest {
     @Autowired(required = true)
     MockMvc mockMvc;
 
-
     @Test
     public void saveStoreTest() throws Exception{
         RequestBuilder requestBuilder = MockMvcRequestBuilders.get(
